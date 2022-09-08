@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(font/Norse-Bold.otf) format('opentype');
+}
+
+:root {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    /* border-radius: 12px;
+    border-color: black;
+    border: solid; */
+    /* height: 800px;
+    width: 1700px; */
+    height: 100vh;
+    width: 99.2vw;
+}
+
+.style {
+    height: 100%;
+    width: 60%;
+}
+
+.style img {
+    height: min(100%);
+    width: min(100%);
+}
+
+.logo {
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    font-family: 'Norse-Bold';
+    font-size: 100px;
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 140px;
+    width: 100px;
+}
+
+
+/* Form Styling */
+.form,
+.links {
+    background-color: #F5F5F5;
+}
+
+.form div {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.form div:first-child {
+    font-size: 30px;
+    padding-right: 440px;
+}
+
+form {
+    padding-top: 1px;
+    background-color: white;
+}
+
+form ul p {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+section li:last-child {
+    margin-left: 40px;
+}
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    border: 1px solid;
+    border-color: #858585;
+    border-radius: 5px;
+}
+
+.links {
+    padding-top: 30px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #355D32;
+    color: white;
+    font-weight: bolder;
+}
+
+a {
+    color: #355D32;
+}
+
+/* Validation */
+/* input:invalid {
+    background-color: red;
+} */
